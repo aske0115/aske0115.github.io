@@ -93,7 +93,7 @@ analytics:
     
 # Site Author
 author:
-  name             : "GeunHwa Lee"
+  name             : "Aske"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "i'll be always happy"
   location         : "Korea"
@@ -102,19 +102,6 @@ author:
       linkedin:          geunaske
       github:            aske0115
       email:             burzum17@naver.com
-
-# Site Footer
-footer:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:burzum17@naver.com
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
-      url: "www.linkedin.com/in/geunaske"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/aske0115"
 
 
 # Reading Files
