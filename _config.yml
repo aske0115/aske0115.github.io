@@ -19,7 +19,8 @@ locale                   : "ko-KR"
 title                    : "Aske"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "GeunHwa Lee"
+keyword                  : ["Development","iOS","Swift","Objective-c"]
+name                     : "Aske"
 description              : "Happy Life."
 url                      : "https://aske0115.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -89,47 +90,6 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
-social:
-    #twitter:         <username>
-    github:          https://github.com/aske0115
-    email:           <burzum17@naver.com>
-    # rss:             https://<url>/feed.xml
-    # facebook:        <username>
-    # google:          <number>
-    # vk:              <username>
-    # youtube:         <string_string_string>
-    # vimeo:           <username>
-    # vine:            <username>
-    # spotify:         <user>/<number>
-    # soundcloud:      <username>
-    # lastfm:          <username>
-    # instagram:       <username>
-    # flickr:          <string@string>
-    # 500px:           <username>
-    # dribbble:        <username>
-    # behance:         <username>
-    # deviantart:      <username>
-    # ello:            <username>
-    # twitch:          <username>
-    # steam:           <number>
-    # reddit:          <username>
-    # tumblr:          <username>
-    # pinterest:       <username>
-    # foursquare:      <number>
-    # yelp:            <string>
-    # stackoverflow:   <number/username>
-    # npm:             <username>
-    # hackernews:      <username>
-    # trello:          <firstnamelastname>
-    linkedin:        geunaske
-    # xing:            <firstname_lastname_counter>
-    # blogger:         <number>
-    # delicious:       <username>
-    # stumbleupon:     <username>
-    # paypal:          <username>
-    # download:        <url>
-    # keybase          <username>
     
 # Site Author
 author:
@@ -138,16 +98,10 @@ author:
   bio              : "i'll be always happy"
   location         : "Korea"
   email            : mailto:burzum17@naver.com
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:burzum17@naver.com
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
-      url: "www.linkedin.com/in/geunaske"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/aske0115"
+  social:
+      linkedin:          geunaske
+      github:            aske0115
+      email:             burzum17@naver.com
 
 # Site Footer
 footer:
