@@ -25,10 +25,10 @@ title:                 Aske
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  그저 그런 개발자가 좋은 개발자가 되기 위해 늦게나마 시작한 블로그 입니다.
+  "그저 그런 개발자가 좋은 개발자가 되기 위해 늦게나마 시작한 블로그 입니다."
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               그저 그런 개발자가 좋은 개발자가 되기 위해 늦게나마 시작한 블로그 입니다.
 
 # A list of keywords for your blog
 keywords:              ["swift","iOS","objective-c"]
@@ -358,11 +358,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  email: mailto:burzum17@naver.com
+  links:
+    - https://linkedin.com/in/geunaske
+    - https://github.com/aske0115
 
 
 # Plugin Configs
