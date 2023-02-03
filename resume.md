@@ -12,7 +12,7 @@ redirect_from:
 
 <!--author-->
 
-## Hydejack
+## 입력예정.
 
 A boutique Jekyll theme for hackers, nerds, and academics.  
 {:.lead}
