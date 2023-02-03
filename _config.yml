@@ -52,7 +52,7 @@ menu:
     url:               /example/
   - title:             Documentation
     url:               /docs/
-  - title:             About
+  - title:             Resume
     url:               /about/
 
 # Add links to the footer.
