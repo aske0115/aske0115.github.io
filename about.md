@@ -1,9 +1,9 @@
 ---
 layout: about
-image: /assets/img/logo.png
+image: /assets/img/resume/profile.png
 description: >
   RESUME
-hide_description: false
+hide_description: true
 redirect_from:
   - /download/
 ---
