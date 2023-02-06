@@ -51,7 +51,7 @@ menu:
   - title:             Resume
     url:               /resume/
   - title:             Post
-    url:               /_post/
+    url:               /post/
   - title:             Documentation
     url:               /docs/
 
