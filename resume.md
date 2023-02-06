@@ -24,6 +24,6 @@ redirect_from:
 > VOD 설계 및 swift + MVVM사용하여 개발  
 > 아마존 상품상세 리뷰 영역 개발  
 
-- 2013.10 ~ 2019.03
+- 2013.10 ~ 2019.03  
 ###AfreecaTV
 > bluablua
