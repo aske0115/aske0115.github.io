@@ -52,8 +52,6 @@ menu:
     url:               /resume/
   - title:             Post
     url:               /posts/
-  - title:             Life
-    url:               /lifes/
   - title:             Documentation
     url:               /docs/
 
