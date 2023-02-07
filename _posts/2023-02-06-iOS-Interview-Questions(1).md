@@ -16,11 +16,11 @@ sitemap: false
  
 ~~~objc
  @interface NSString (URL)
- (BOOL)isHTTPProtocol;
+ - (BOOL)isHTTPProtocol;
  @end
  
  @implementation NSString (URL)
- (BOOL)isHTTPProtocol {
+ - (BOOL)isHTTPProtocol {
     return [[self lowercastString] hasPrefix:@"http://"] || [[self lowercastString] hasPrefix:@"https://];
  }
 ~~~
