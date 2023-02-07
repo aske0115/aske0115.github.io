@@ -1,4 +1,4 @@
-# 그저 그런 개발자의 좋은 개발자 되기
+# iOS Developer
 
 
 ## Link
