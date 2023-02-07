@@ -12,6 +12,9 @@ redirect_from:
 
 <!--author-->
 
+___
+- 
+
 ## Experience  
 
 
@@ -19,7 +22,8 @@ redirect_from:
 
 > **동영상 리스트 자동재생 개발 및 개선**  
 > - UIScrollView Category를 이용하여 UIScrollView를 상속받는 tableView,collectionView 등의  
->   컴포넌트에서 기능을 확장하여 사용할 수 있도록 처리  
+>   컴포넌트에서 기능을 확장하여 사용할 수 있도록 처리
+> - n개의 동영상, 가로,세로 스크롤 등 모든 경우에 원하는 재생정책 적용이 가능하도록 처리  
 
 > **꾹꾹 동영상 탭 개발**  
 > - 자동재생 카테고리 확장을 통하여 단일 collectionView에서만 동작하던 부분을 확장하여 개발할 수 있도록 개발  
@@ -36,7 +40,8 @@ redirect_from:
 
 
 > **앱 내 P.I.P 모듈 개발**  
-> - swipe down gesture를 통하여 시청중인 라이브 방송을 앱 내 pip로 노출하여 시청이 끊기지 않고 결제 혹은 기타 동작들을 모두 가능하도록 구현  
+> - swipe down gesture 및 버튼 액션을 통하여 시청중인 라이브 방송을   
+>   앱 내 pip로 노출하여 시청이 끊기지 않고 결제 혹은 기타 동작들을 모두 가능하도록 구현  
 
 
 > **VOD 설계 및 swift + MVVM사용하여 개발** 
@@ -45,10 +50,48 @@ redirect_from:
 
 > **아마존 상품상세 리뷰 영역 개발**  
 > - 신규 아마존 상품상세의 리뷰 영역을 개발.  
-> - Diffable DataSource 적용하였으며, 동영상 자동재생 기능 추가  
 
 
 
 ### AfreecaTV (2013.10 ~ 2019.03)   
 
-> bluablua
+> **AfreecaTV iOS  앱 개발**
+> - 유니버셜 앱 대응
+> - 리뉴얼 시 전반적인 구조설계
+> - objective-c로 되어있던 프로젝트에 swift 언어를 통한 개발 의견을 제시하여 swift 도입   
+
+> **GameCenter**
+> - 게임센터 SDK 설계 및 개발
+> - framework단위로 배포
+> - AfreecaTV 계정으로 각종 모바일 게임 연동
+> - Framework 연동 가이드 문서 작성 및 배포   
+
+> **AfreecaTV Global 서비스**
+> - 대만,일본,북미 각각 앱 개발
+> - tts 기능 추가
+> - sns 연동 가입기능 추가   
+
+> **AfreecaTV Crash 분석 툴 도입**
+> - Crashlytics, Hockey, Testflight 등, 분석 툴에 대한 팀 내 세미나 진행
+> - 장단점등을 의논하여 Crashlytics를 최초 앱에 적용하여 Crash Free Rate를 상당부분 개선   
+
+
+### - 드림시큐리티  (2010.05 ~  2011.05)   
+
+> **PCRO**
+> - 공인인증서 저장 및 pc로 복사하는 앱 개발
+> - in-app-purchase 적용   
+
+> **보안카드원샷**
+> - OpenCV 라이브러리를 연동하여 보안카드 촬영 후, 자동으로 카드영역을 검출하여 자체 암호화 솔루션을 통해 안전하게 저장
+> - 커버플로우 디자인 적용   
+
+
+### - 기타   
+
+> **Stack Heart / Maze Master**
+> - 1인 개발,디자인,기획, 런칭까찌 모든 단계 수행
+> - 개발자 계정 생성단계부터 배포까지 모든 경험을 진행
+> - cocos-2d와 openfeint를 사용하여, 미로찾기, 테트리스류의 게임을 제작   
+
+
