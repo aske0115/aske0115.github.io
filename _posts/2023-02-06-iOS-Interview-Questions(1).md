@@ -11,7 +11,9 @@ sitemap: false
 ## iOS Interview Question Part1   
 
 **Q : Categoty VS Protocol**
-- Category : 기존에 생성되어 있는 Class들을 상속하지 않고, 메소드(기능)을 확장하기 위하여 사용합니다.   
+- Category : 기존에 생성되어 있는 Class들을 상속하지 않고, 메소드(기능)을 확장하기 위하여 사용합니다. 
+
+ 
 ~~~js
  @interface NSString (URL)
  - (BOOL)isHTTPProtocol;
