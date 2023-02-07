@@ -25,10 +25,10 @@ title:                 Aske
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "그저 그런 개발자에서 좋은 개발자 되기."
+  "iOS Developer"
 
 # A shorter description for the sidebar.
-tagline:               그저 그런 개발자에서 좋은 개발자 되기.
+tagline:               iOS Developer
 
 # A list of keywords for your blog
 keywords:              ["swift","iOS","objective-c"]
