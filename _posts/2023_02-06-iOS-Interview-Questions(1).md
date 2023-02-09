@@ -27,4 +27,31 @@ sitemap: false
  - (BOOL)isHTTPProtocol {
     return [[self lowercastString] hasPrefix:@"http://"] || [[self lowercastString] hasPrefix:@"https://];
  }
-~~~
+~~~     
+
+- Protocol : 필요한 기능을 묶어서 명시하고, 해당 프로토콜을 따르는 객체에서는 해당 프로토콜에 선언된 함수들을 처리합니다.
+  + 반드시 처리해야 하는 함수들은 @required 로 묶어서 나열합니다 (기본값은 required입니다.)
+  + 필요에 따라 처리해도 되고 안해도 되는 함수들은 @optional 키워드 아래에 나열합니다.
+   
+~~~objc
+ @protocol Loggable <NSObject>
+ @required
+  - (void)trackingObject:(id object);
+ @optional
+  - (void)dumpLog;
+ @end
+ 
+ 
+ @interface LoggableView: UIView <Loggable>
+ @end
+ 
+ @implementation LoggableView {
+  - (void)trackingObject:(id object) {
+  
+  }
+  
+  - (void)dumpLog {
+  
+  }
+~~~   
+
