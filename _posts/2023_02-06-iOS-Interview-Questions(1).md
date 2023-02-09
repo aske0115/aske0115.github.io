@@ -27,6 +27,11 @@ sitemap: false
  - (BOOL)isHTTPProtocol {
     return [[self lowercastString] hasPrefix:@"http://"] || [[self lowercastString] hasPrefix:@"https://];
  }
+ 
+ 
+ //사용예
+ [@"https://aske0115.github.io" isHTTPProtocol];
+
 ~~~     
 
 - Protocol : 필요한 기능을 묶어서 명시하고, 해당 프로토콜을 따르는 객체에서는 해당 프로토콜에 선언된 함수들을 처리합니다.
@@ -54,4 +59,12 @@ sitemap: false
   
   }
 ~~~   
+
+---
+**Q : Delegate VS Notifications**
+- Delegate : Delegate는 클래스 사이의 1:1의 연결관계를 가지고 서로 통신이 가능합니다.   
+  데이터들을 주고받을 수 있으며, 이벤트를 위임하여 처리할 수 있습니다.   
+  (ex : UITableViewDelegate, UIScrollViewDelegate, UICollectionViewDelegate..datasource..등등)   
+  
+- 
 
