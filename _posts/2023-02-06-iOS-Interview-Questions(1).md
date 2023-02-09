@@ -15,7 +15,11 @@ sitemap: false
 ## iOS Interview Question Part1   
 
 **Q : Categoty VS Protocol**
-- Category : 기존에 생성되어 있는 Class들을 상속하지 않고, 메소드(기능)을 확장하기 위하여 사용합니다. 
+- Category : 기존에 생성되어 있는 Class들을 상속하지 않고, 메소드(기능)을 확장하기 위하여 사용합니다.   
+  - Inheritance(상속) 과의 차이점은 Category는 객체를 변형하지 않은 채로 메소드(기능)을 확장가능하지만   
+    상속은 Subclassing을 통하여 새로운 기능을 추가합니다.   
+  - 또한 상속은 Subclassing을 통해 새로운 Property도 추가할 수 있습니다.   
+     _- 기본적으로는 Category에 Property추가가 불가하지만, AssociatedObject를 사용하면 Category의 property 추가도 가능합니다._
 
  
 ~~~objc
@@ -77,5 +81,18 @@ sitemap: false
   + 클래스 사이의 1:1 결합을 통하여 데이터를 주고받거나, 특정 이벤트 처리를 위임해야 할 경우 Delegate를 사용합니다.
   + 클래스 사이의 참조포인트가 너무 멀거나, 특정 이벤트의 발생을 여러 객체에서 동시에 처리해야 할 경우, Notification을 사용합니다. (ex..로그인 상태 변경 등)
 
+---
+**Q : Weak vs Strong (assign vs retain)**
+- Weak : 메모리 관리에서 필요한 부분으로, 단어 뜻과 같이 약한 참조입니다.   
+  - weak으로 선언된 property에 값을 할당하면, 소유권을 가지지 않고 해당 값의 주소만 약하게 참조합니다.
+  - 할당된 객체는 누군가는 소유권을 가지고 있어야 하며, 소유권이 없어지는 경우, nil로 셋팅되며 참조는 끊기게 됩니다.   
+     _- assign은 weak과 같은 쓰임새와 기능을 가지고 있으나, 참조하고있는 객체의 소유권이 사라져도 자동으로 nil로 설정되지 않고 쓰레기 주소를 가리키게 됩니다._
+  - 대표적으로 delegate 를 사용할 때, retain Cycle을 피하기 위해 사용합니다.   
 
-
+- Strong : 역시 메모리 관리에서 필요한 부분으로, 단어 뜻과 같이 강한 참조입니다.   
+  - strong으로 선언된 property에 값을 할당하면, 해당 값에 대한 소유권을 가지며 retain count가 증가하게 됩니다.
+  - 할당된 객체는 retain Count가 증가하게 되며, 할당된 객체의 원래 소유권자가 소유권을 해제하더라도 본인의 소유권이 남아있기 때문에, 해제되지 않습니다.   
+    _- retain은 strong과 동일하며, arc 환경 이전에 사용하였습니다._   
+    
+    
+---
