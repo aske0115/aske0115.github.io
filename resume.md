@@ -16,7 +16,6 @@ right_column:
   - skills
   - interests
 ---
----
 
 # RESUME
 
