@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: resume
 image: /assets/img/resume/profile.png
 description: >
   RESUME
