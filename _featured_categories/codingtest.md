@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: life
+title: codingTest
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: lifes
+slug: codingTest
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  이런저런 일상의 이야기들을 다룰 예정입니다.
+  leetCode를 풀면서 나름대로의 풀이와 좋은 풀이를 비교해볼 예정입니다.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
