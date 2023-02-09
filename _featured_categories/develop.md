@@ -1,9 +1,9 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-layout: blog
+layout: list
 
 # The title of the tag's page.
-title: Posts
+title: Develop
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 slug: develop
@@ -17,5 +17,4 @@ description: >
 
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
 ---
