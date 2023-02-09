@@ -4,8 +4,18 @@ image: /assets/img/resume/profile.png
 description: >
   RESUME
 hide_description: true
-redirect_from:
-  - /download/
+left_column:
+  - work
+  - volunteer
+  - education
+  - awards
+  - publications
+  - references
+right_column:
+  - languages
+  - skills
+  - interests
+---
 ---
 
 # RESUME
