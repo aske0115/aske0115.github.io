@@ -62,9 +62,20 @@ sitemap: false
 
 ---
 **Q : Delegate VS Notifications**
-- Delegate : Delegate는 클래스 사이의 1:1의 연결관계를 가지고 서로 통신이 가능합니다.   
-  데이터들을 주고받을 수 있으며, 이벤트를 위임하여 처리할 수 있습니다.   
-  (ex : UITableViewDelegate, UIScrollViewDelegate, UICollectionViewDelegate..datasource..등등)   
+- Delegate : Delegate는 클래스 사이의 1:1의 연결관계를 맺고, 서로 데이터들을 주고받거나     
+             이벤트 처리에 대한 위임을 통하여 이벤트를 처리할 수 있습니다.   
+             (ex : UITableViewDelegate, UIScrollViewDelegate, UICollectionViewDelegate..datasource..등등)   
   
-- 
+- Notifications : Broadcasting과 같은 형태로 사용되며 발신자와 수신자는 긴밀한 관계를 가지지 않습니다.   
+  +  발신자는 수신자가 누구인지, 있는지 없는지, 몇명이나 있는지에 대한 확인은 하지 않습니다.
+  +  그저 필요한 시점에 앱 전반에 해당 이벤트가 발생했다는 것을 알립니다.
+  +  수신자는 notificationName을 기반으로 특정 Notification에 대응하도록 Observing 합니다.
+  +  수신자는 발신자가 알림을 방출하면, 그에 해당하는 Observing중인 Notification을 전달받습니다.
+  +  긴밀한 연결관계가 아니기 때문에, 발신자와 수신자는 서로가 잘 보내고 받았는지에 대한 확인작업이 불가능합니다.(하지않습니다.)
+
+- 차이점   
+  + 클래스 사이의 1:1 결합을 통하여 데이터를 주고받거나, 특정 이벤트 처리를 위임해야 할 경우 Delegate를 사용합니다.
+  + 클래스 사이의 참조포인트가 너무 멀거나, 특정 이벤트의 발생을 여러 객체에서 동시에 처리해야 할 경우, Notification을 사용합니다. (ex..로그인 상태 변경 등)
+
+
 
