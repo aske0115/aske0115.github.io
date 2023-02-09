@@ -1,20 +1,9 @@
 ---
-layout: resume
+layout: about
 image: /assets/img/resume/profile.png
 description: >
   RESUME
 hide_description: true
-left_column:
-  - work
-  - volunteer
-  - education
-  - awards
-  - publications
-  - references
-right_column:
-  - languages
-  - skills
-  - interests
 ---
 
 # RESUME
