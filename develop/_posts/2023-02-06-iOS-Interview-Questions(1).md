@@ -1,7 +1,7 @@
 ---
 layout: post
-title: iOS Interview Question Part1 
-sitemap: false
+title: iOS Interview Question Part1
+
 ---
 
 
