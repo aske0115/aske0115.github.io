@@ -11,7 +11,7 @@ slug: develop
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   개발에 대한 이야기들을 다룰 예정입니다.
-
+comments: true
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
 ---
