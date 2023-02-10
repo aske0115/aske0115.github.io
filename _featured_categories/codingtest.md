@@ -13,5 +13,4 @@ description: >
   leetCode를 풀면서 나름대로의 풀이와 좋은 풀이를 비교해볼 예정입니다.
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
-comments: true
 ---
