@@ -94,7 +94,8 @@ accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
-# Defaults to `accent_color`.
+# 
+s to `accent_color`.
 theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
@@ -137,10 +138,10 @@ defaults:
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
