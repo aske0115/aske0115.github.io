@@ -15,11 +15,3 @@ description: >
 # no_groups: true
 comments: true
 ---
-<script src="https://utteranc.es/client.js"
-        repo="aske0115/blog-comments"
-        issue-term="pathname"
-        label="utterences"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
