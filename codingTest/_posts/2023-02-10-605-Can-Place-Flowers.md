@@ -40,50 +40,20 @@ class Solution {
         var count = 0
         var flowered = flowerbed
 
-        func planted(_ indexs: Int) {
-            flowered[indexs] = 1
-            count += 1
-            index += 2
-        }
-
-        func notPlanted() {
-            index += 1
-        }
-
         while flowered.count > index  {
-
-            if flowered[index] == 0 {
-                if  index - 1 >= 0 && index + 1 < flowered.count {
-                    if flowered[index - 1] == 0 && flowered[index + 1] == 0 {
-                       planted(index)
-                    } else {
-                        notPlanted()
-                    }
-                } else if  index - 1 >= 0 {
-                    if flowered[index - 1] == 0 {
-                        planted(index)
-                    } else {
-                        notPlanted()
-                    }
-                } else if  index + 1 < flowered.count {
-                    if flowered[index + 1] == 0 {
-                        planted(index)
-                    } else {
-                        notPlanted()
-                    }
-                } else {
-                    planted(index)
-                }
+            if flowered[index] == 0 
+                   && ((index - 1 >= 0 && index + 1 < flowered.count && flowered[index - 1] == 0 && flowered[index + 1] == 0) 
+                   || (index + 1 >= flowered.count && index - 1 >= 0 && flowered[index - 1] == 0) 
+                   || (index - 1 < 0 && index + 1 < flowered.count && flowered[index + 1] == 0)
+                   || (index - 1 < 0 && index + 1 >= flowered.count))
+                {
+                    flowered[index] = 1
+                    count += 1
+                    index += 2
             } else {
-                notPlanted()
+                 index += 1
             }
-
-            if count == n {
-                return true
-            }
-            
         }
-
         return count >= n
     }
 }
