@@ -11,9 +11,7 @@ slug: life
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   개발외적으로 다양한 이야기들을 다룰 예정입니다.
-
-menu: true
-order: 1
+comments: false
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
 
