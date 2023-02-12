@@ -65,10 +65,10 @@ Constraints:
  시간초과가 나오는 것을 보고 Array로 변환해서 index에 바로 접근 하도록 불필요한 연산을 제거하고 제출에 성공하였습니다.   
  ```
  
----
- 
- ### swift 코드로 나타내면 아래와 같습니다.
- 
+---   
+
+### swift 코드로 나타내면 아래와 같습니다.
+
 ~~~swift
 class Solution {
     func validPalindrome(_ s: String) -> Bool {
