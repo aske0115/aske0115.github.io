@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <Greedy> 860. Lemonade Change
+title: <Greedy> 860. Lemonade Change [Easy]
 ---
 
 
