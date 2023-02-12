@@ -1,10 +1,10 @@
 ---
 layout: post
-title: <Greedy> 605. Can Place Flowers
+title: <Greedy> 605. Can Place Flowers [Easy]
 ---
 
 
-## Leetcode [Greedy] 605. Can Place Flowers
+## Leetcode [Greedy] 605. Can Place Flowers [Easy]
 ---
 You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots.
 
