@@ -1,7 +1,4 @@
 # Leetcode [Greedy] 2160. Minimum Sum of Four Digit Number After Splitting Digits [Easy]
-
-생성일: February 23, 2023 4:12 PM
-
 ---
 
 **2160. Minimum Sum of Four Digit Number After Splitting Digits [Easy]**
@@ -89,3 +86,11 @@ class Solution {
 ```
 
 ---
+<script src="https://utteranc.es/client.js"
+        repo="aske0115/blog-comments"
+        issue-term="pathname"
+        label="utterences"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
