@@ -96,3 +96,9 @@ title: iOS Interview Question Part1 (작성중..)
     
     
 ---
+**Q : Frame vs Bounds
+- Frame : 부모뷰가 기준이 되어 설정되는 좌표계 (x,y,width,height)
+  - 내 방에서 의자를 움직여 놓는 것 처럼, 내 방에서 의자의 위치를 움직일 때 사용되는 좌표
+
+- Bounds : 내가 기준이 되어 설정되는 좌표계 (x,y,width,heght)
+  - 내 방에서 의자를 움직이지 않고, 의자에서 내가 일어나 의자를 바라보는것 같은 
