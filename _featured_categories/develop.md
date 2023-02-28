@@ -14,13 +14,3 @@ description: >
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
 ---
-{% if site.postComment %}
- <script src="https://utteranc.es/client.js"
-        repo="aske0115/blog-comments"
-        issue-term="pathname"
-        label="utterences"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-{% endif %}
