@@ -117,7 +117,7 @@ Array<Int>의 배열 arr을 생성하고, arr2이라는 변수에 arr를 할당�
 
 다음편에는 위 질문에 대한 이야기를 해보려고 합니다. 
 
-    <script src="https://utteranc.es/client.js"
+<script src="https://utteranc.es/client.js"
         repo="aske0115/blog-comments"
         issue-term="pathname"
         label="utterences"
