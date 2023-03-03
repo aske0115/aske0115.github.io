@@ -109,8 +109,35 @@ Array<Int>의 배열 arr을 생성하고, arr2이라는 변수에 arr를 할당�
 기법의 설명대로 Copy On Write를 하고있습니다.
 
 결국 데이터를 여기저기 참조하여 읽어 들일때는 최초 생성된 값 타입을 공유하여 copy에 발생하는 비용을 사용하지 않기 때문에, **참조 타입과 동일하게 별도의 비용이 발생하지 않고**, 실제로 값을 변경하게 되면, 그제서야 새로운 인스턴스를 생성하게 되므로, **다중 스레드 환경에서의 data 유효성에 대한 보장도 가능**하게 되는것입니다.
+---
+아래는 copy on write를 custom한 값 type에 어떻게 적용해야 하는지 나타내주는 코드이다.   
+    
+```swift
+final class Ref<T> {
+  var val : T
+  init(_ v : T) {val = v}
+}
 
+struct Box<T> {
+    var ref : Ref<T>
+    init(_ x : T) { ref = Ref(x) }
 
+    var value: T {
+        get { return ref.val }
+        set {
+          if (!isUniquelyReferencedNonObjC(&ref)) {
+            ref = Ref(newValue)
+            return
+          }
+          ref.val = newValue
+        }
+    }
+}
+// This code was an example taken from the swift repo doc file OptimizationTips 
+// Link: https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst#advice-use-copy-on-write-semantics-for-large-values
+```
+
+    
 ---   
 <script src="https://utteranc.es/client.js"
         repo="aske0115/blog-comments"
