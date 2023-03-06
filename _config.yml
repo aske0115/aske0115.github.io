@@ -154,7 +154,7 @@ defaults:
       type:            featured_categories
     values:
       seo:
-        type:          WebPage
+        type:          BlogPosting
   - scope:
       type:            featured_tags
     values:
