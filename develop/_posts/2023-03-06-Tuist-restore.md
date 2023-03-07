@@ -103,11 +103,3 @@ let project = Project(
 위아래 여백이 갑자기 왜 나오는지 알아보긴 해야겠으나.. 결론은 죽었던 프로젝트를 살려서 빌드까지 성공했다는데에 의미를 두려고 합니다.
 
 ---
-<script src="https://utteranc.es/client.js"
-        repo="aske0115/blog-comments"
-        issue-term="pathname"
-        label="utterences"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
