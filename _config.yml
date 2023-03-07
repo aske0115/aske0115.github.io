@@ -157,15 +157,15 @@ defaults:
         type:          BlogPosting
  
   - scope:             
-    path:             develop/
+      path:             develop/
     values:
       comments:     true
   - scope:            
-    path:             codingTest/
+      path:             codingTest/
     values:
       comments:       true
   - scope:            
-    path:             life/
+      path:             life/
     values:
       comments:       true
   - scope:
