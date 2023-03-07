@@ -141,7 +141,7 @@ defaults:
   - scope:
       type:            posts
     values:
-      comments:        false
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
