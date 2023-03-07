@@ -203,6 +203,7 @@ comments:
 giscus:
   repo:                "aske0115/blog-comments"
   repo-id:             "R_kgDOI8CppQ"
+  category:            "General"
   category-id:         "DIC_kwDOI8Cppc4CUsj-"
   mapping:             "pathname"
   reaction-enabled:    "1"
