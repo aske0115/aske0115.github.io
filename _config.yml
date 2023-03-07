@@ -170,6 +170,15 @@ kramdown:
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
 
+
+  
+postComment : true
+# Set your Google Analytics id to receive `pageview` events.
+# To remove Google Anaylics from your page, remove the line below.
+google_analytics: G-RTX1KNJ07Y
+
+# Setting a disqus shortname will enable the comment section on
+# pages with `comments: true` in the front matter.
 # Set which comment system to use
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available
@@ -187,15 +196,6 @@ giscus:
   reaction-enabled:    "1"
   theme:               "dark_dimmed"
   crossorigin:         "anonymous"
-  
-postComment : true
-# Set your Google Analytics id to receive `pageview` events.
-# To remove Google Anaylics from your page, remove the line below.
-google_analytics: G-RTX1KNJ07Y
-
-# Setting a disqus shortname will enable the comment section on
-# pages with `comments: true` in the front matter.
-disqus:                geunhwalee
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
