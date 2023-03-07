@@ -156,13 +156,16 @@ defaults:
       seo:
         type:          BlogPosting
  
-  - scope:             develop/
+  - scope:             
+    path:             develop/
     values:
       comments:     true
-  - scope:            codingTest/
+  - scope:            
+    path:             codingTest/
     values:
       comments:       true
-  - scope:            life/
+  - scope:            
+    path:             life/
     values:
       comments:       true
   - scope:
