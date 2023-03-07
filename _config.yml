@@ -155,11 +155,15 @@ defaults:
     values:
       seo:
         type:          BlogPosting
+ 
   - scope:             develop/
+    values:
       comments:     true
   - scope:            codingTest/
+    values:
       comments:       true
   - scope:            life/
+    values:
       comments:       true
   - scope:
       type:            featured_tags
