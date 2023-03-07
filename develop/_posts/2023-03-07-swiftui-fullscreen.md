@@ -157,9 +157,9 @@ struct SplashIntroView: View {
 - **Background Color** : asset에 등록된 Color 이름을 적어주면, 해당 color의 배경색으로 설정할 수 있습니다.
 - **Image name** : 말그대로 이미지를 사용하여 LaunchScreen을 설정합니다.
 - **Image respects safe area insets** : 이미지를 사용할 경우  safeareaInsets을 비워둘지 채울지에 대한 Boolean 값입니다.
-- **Show Navigation bar** :  navigatonBar mockup을 노출합니다.
-- Show Tab bar : tabbar mockup을 노출합니다.
-- Show Toolbar: Toolbar mockup을 노출합니다.
+- **Show Navigation bar** :  NavigationBar mock up을 노출합니다.
+- **Show Tab bar** : Tabbar mock up을 노출합니다.
+- **Show Toolbar** : Toolbar mock up을 노출합니다.
 
 저는 참고로 Background Color로 설정하여 splash Intro 화면과 같은 색상으로 보이도록 하였습니다.
 
