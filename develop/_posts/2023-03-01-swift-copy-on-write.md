@@ -151,11 +151,3 @@ struct Box<T> {
 자신이 생성한 struct에 copy on write를 적용하려면 setter에서 isUniquelyReferencedNonObjC를 체크해서 copy혹은 mutate 하도록 처리하는 코드를 작성하면 copy-on-write 기법을 적용할 수 있게 되는 것입니다.
     
 ---   
-<script src="https://utteranc.es/client.js"
-        repo="aske0115/blog-comments"
-        issue-term="pathname"
-        label="utterences"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
