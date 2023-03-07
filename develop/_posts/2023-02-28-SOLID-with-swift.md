@@ -258,12 +258,3 @@ class ViewController: UIViewController {
 ---
 
 SOLID 원칙은 유지보수 가능하고 확장성이 높은 소프트웨어를 만들기 위한 지침입니다. 이를 Swift 코드에 적용하면 코드를 이해하기 쉽고 유지보수하기 쉬운 소프트웨어를 만들 수 있습니다.
-
-<script src="https://utteranc.es/client.js"
-        repo="aske0115/blog-comments"
-        issue-term="pathname"
-        label="utterences"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
