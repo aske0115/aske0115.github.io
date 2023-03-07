@@ -87,11 +87,3 @@ Clean Code에서는 주석을 다음과 같이 정의한다
 📌 앞으로는 부족한 부분을 감추기 위해, “주석”이라는 도구를 사용하지 않으리라 다짐해본다.
 
 </aside>
-<script src="https://utteranc.es/client.js"
-        repo="aske0115/blog-comments"
-        issue-term="pathname"
-        label="utterences"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
