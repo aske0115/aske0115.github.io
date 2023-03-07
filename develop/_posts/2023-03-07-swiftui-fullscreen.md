@@ -163,4 +163,4 @@ struct SplashIntroView: View {
 
 저는 참고로 Background Color로 설정하여 splash Intro 화면과 같은 색상으로 보이도록 하였습니다.
 
-[참고]([https://www.avanderlee.com/xcode/launch-screen/](https://www.avanderlee.com/xcode/launch-screen/))
+[참고: Launch screens in Xcode: All the options explained]([https://www.avanderlee.com/xcode/launch-screen/](https://www.avanderlee.com/xcode/launch-screen/))
