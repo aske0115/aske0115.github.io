@@ -155,6 +155,7 @@ defaults:
     values:
       seo:
         type:          BlogPosting
+      comments:        true
   - scope:
       type:            featured_tags
     values:
