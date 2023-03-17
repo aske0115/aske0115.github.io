@@ -16,7 +16,7 @@
 
 이런 부분을 좀 더 편리하게 이용할 수 있는 앱이 있을까 찾아보다가 정말 정말 강추하는 앱을 발견하였습니다.
 
-## 앱 이름은 [**Fleek](https://apps.apple.com/kr/app/fleek-workout-tracker-log/id1576993198?l=kr)** 입니다.
+## 앱 이름은 **[Fleek](https://apps.apple.com/kr/app/fleek-workout-tracker-log/id1576993198?l=kr)** 입니다.
 
 ---
 
